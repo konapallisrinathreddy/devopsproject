@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_CREDENTIALS = credentials('srinath') // Replace with your Docker Hub credentials ID
+        DOCKERHUB_CREDENTIALS = 'srinath' // Replace with your Docker Hub credentials ID
         DOCKERHUB_REPO = 'srinath12123/devops-project1' // Replace with your Docker Hub repo
     }
 
