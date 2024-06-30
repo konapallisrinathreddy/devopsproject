@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_CREDENTIALS = credentials('dockerhub') // The ID of the Docker Hub credentials in Jenkins
-        DOCKERHUB_REPO = 'your-dockerhub-username/your-repository' // Replace with your Docker Hub repo
+        DOCKERHUB_CREDENTIALS = credentials('srinath') // Replace with your Docker Hub credentials ID
+        DOCKERHUB_REPO = 'srinath12123/devops-project1' // Replace with your Docker Hub repo
     }
 
     stages {
